@@ -1,0 +1,2 @@
+-e git+git@github.com:newsdev/nyt-clerk.git#egg=nyt-clerk
+-e git+git@github.com:newsdev/nyt-docket.git#egg=nyt-docket
