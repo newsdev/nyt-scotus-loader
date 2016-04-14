@@ -2,7 +2,6 @@ DROP TABLE IF EXISTS cases CASCADE; CREATE TABLE cases(
         caseid varchar,
         docketid varchar,
         caseissuesid varchar,
-        voteid varchar,
         datedecision varchar,
         decisiontype varchar,
         uscite varchar,

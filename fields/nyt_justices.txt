@@ -1,0 +1,4 @@
+CREATE OR REPLACE VIEW nyt_justices as
+    select * 
+    from justices LEFT OUTER JOIN justice_scores using (justice)
+    ;
