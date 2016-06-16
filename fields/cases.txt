@@ -50,5 +50,6 @@ DROP TABLE IF EXISTS cases CASCADE; CREATE TABLE cases(
         majopinassigner varchar,
         splitvote varchar,
         majvotes varchar,
-        minvotes varchar
+        minvotes varchar,
+        weighted_majvotes numeric
     );

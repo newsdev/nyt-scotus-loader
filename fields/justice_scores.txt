@@ -1,9 +1,9 @@
 DROP TABLE IF EXISTS justice_scores CASCADE; CREATE TABLE justice_scores(
-        justice int,
-        full_name varchar,
-        chief_justice varchar,
-        confirmation_votes_for varchar,
-        confirmation_votes_against varchar,
-        qualifications_score numeric,
-        ideology_score numeric
-    );
+    justice int,
+    full_name varchar,
+    chief_justice varchar,
+    confirmation_votes_for varchar,
+    confirmation_votes_against varchar,
+    qualifications_score numeric,
+    ideology_score numeric
+);

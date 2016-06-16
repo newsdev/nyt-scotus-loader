@@ -1,11 +1,12 @@
 DROP TABLE IF EXISTS justice_terms CASCADE; CREATE TABLE justice_terms(
-        term varchar,
-        justice varchar,
-        justicename varchar,
-        code varchar,
-        post_mn numeric,
-        post_sd numeric,
-        post_med numeric,
-        post_025 numeric,
-        post_975 numeric
-    );
+    term varchar,
+    justice varchar,
+    justicename varchar,
+    justiceterm varchar,
+    code varchar,
+    post_mn numeric,
+    post_sd numeric,
+    post_med numeric,
+    post_025 numeric,
+    post_975 numeric
+);
