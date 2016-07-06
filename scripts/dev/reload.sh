@@ -10,8 +10,8 @@ if [[ ! $ENV ]] ; then
     ENV='dev'
 fi
 
-# cases
-# votes
+cases
+votes
 justices
 justice_scores
 justice_terms

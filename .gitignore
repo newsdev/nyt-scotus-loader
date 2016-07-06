@@ -1,0 +1,3 @@
+*.pyc
+*.pyo
+nyt_clerk.egg-info/*
