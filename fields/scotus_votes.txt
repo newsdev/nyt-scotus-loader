@@ -1,0 +1,4 @@
+CREATE OR REPLACE VIEW scotus_votes as
+       SELECT c.*, r.* from votes as r
+           LEFT JOIN override_cases as c on r.caseissuesid = c.case_caseissuesid
+    

@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS votes CASCADE; CREATE TABLE votes(
     ledcite varchar,
     lexiscite varchar,
     term varchar,
-    naturalcourt varchar,
+    naturalcourt int,
     chief varchar,
     docket varchar,
     casename varchar,
@@ -50,9 +50,9 @@ DROP TABLE IF EXISTS votes CASCADE; CREATE TABLE votes(
     majopinwriter varchar,
     majopinassigner varchar,
     splitvote varchar,
-    majvotes numeric,
-    minvotes numeric,
-    justice varchar,
+    majvotes int,
+    minvotes int,
+    justice int,
     justicename varchar,
     vote varchar,
     opinion varchar,
@@ -60,5 +60,5 @@ DROP TABLE IF EXISTS votes CASCADE; CREATE TABLE votes(
     majority varchar,
     firstagreement varchar,
     secondagreement varchar,
-    weighted_majvotes numeric
+    weighted_majvotes int
 );

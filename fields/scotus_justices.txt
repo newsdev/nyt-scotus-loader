@@ -1,0 +1,4 @@
+CREATE OR REPLACE VIEW scotus_justices as
+       SELECT c.*, r.* from nyt_justices as r
+           LEFT JOIN override_justices as c on r.justice = c.justice_justice
+    

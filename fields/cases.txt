@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS cases CASCADE; CREATE TABLE cases(
     ledcite varchar,
     lexiscite varchar,
     term varchar,
-    naturalcourt varchar,
+    naturalcourt int,
     chief varchar,
     docket varchar,
     casename varchar,
@@ -49,7 +49,7 @@ DROP TABLE IF EXISTS cases CASCADE; CREATE TABLE cases(
     majopinwriter varchar,
     majopinassigner varchar,
     splitvote varchar,
-    majvotes numeric,
-    minvotes numeric,
-    weighted_majvotes numeric
+    majvotes int,
+    minvotes int,
+    weighted_majvotes int
 );

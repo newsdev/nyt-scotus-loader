@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS justice_terms CASCADE; CREATE TABLE justice_terms(
     term varchar,
-    justice varchar,
+    justice int,
     justicename varchar,
     justiceterm varchar,
     code varchar,

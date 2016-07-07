@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS override_cases CASCADE; CREATE TABLE override_cases(
+    case_caseissuesid varchar,
+    nyt_casename varchar,
+    nyt_short_name varchar,
+    nyt_opinion_pdf_url text[],
+    nyt_argument_pdf text[],
+    nyt_audio_mp3 text[],
+    nyt_question text
+);
