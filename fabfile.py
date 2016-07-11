@@ -65,11 +65,11 @@ def pip_install():
 
 @api.task
 def reload():
-    api.run('cd /home/ubuntu/%(project_name)s; workon %(project_name)s && ./scripts/%(settings)s/reload.sh' % env)
+    api.run('cd /home/ubuntu/%(project_name)s; workon %(project_name)s; bash scripts/%(settings)s/reload.sh' % env)
 
 @api.task
 def bootstrap():
-    api.run('cd /home/ubuntu/%(project_name)s; workon %(project_name)s && ./scripts/%(settings)s/bootstrap.sh' % env)
+    api.run('cd /home/ubuntu/%(project_name)s; workon %(project_name)s; bash scripts/%(settings)s/bootstrap.sh' % env)
 
 @api.task
 def deploy():

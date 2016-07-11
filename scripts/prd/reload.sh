@@ -1,14 +1,14 @@
 #!/bin/bash
 
-. scripts/dev/_cases.sh
-. scripts/dev/_courts.sh
-. scripts/dev/_justices.sh
-. scripts/dev/_overrides.sh
-. scripts/dev/_views.sh
-. scripts/dev/_votes.sh
+. scripts/prd/_cases.sh
+. scripts/prd/_courts.sh
+. scripts/prd/_justices.sh
+. scripts/prd/_overrides.sh
+. scripts/prd/_views.sh
+. scripts/prd/_votes.sh
 
 if [[ ! $ENV ]] ; then 
-    ENV='dev'
+    ENV='prd'
 fi
 
 cases

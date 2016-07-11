@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ ! $ENV ]] ; then 
-    ENV='dev'
+    ENV='prd'
 fi
 
 function create_database {
