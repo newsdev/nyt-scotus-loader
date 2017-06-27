@@ -7,7 +7,7 @@
 . scripts/dev/_views.sh
 . scripts/dev/_votes.sh
 
-if [[ ! $ENV ]] ; then 
+if [[ ! $ENV ]] ; then
     ENV='dev'
 fi
 

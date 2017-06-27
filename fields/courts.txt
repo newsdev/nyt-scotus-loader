@@ -50,5 +50,6 @@ DROP TABLE IF EXISTS courts CASCADE; CREATE TABLE courts(
     roberts numeric,
     alito numeric,
     sotomayor numeric,
-    kagan numeric
+    kagan numeric,
+    gorsuch numeric
 );
