@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS override_justices CASCADE; CREATE TABLE override_justices(
-    justice_justice int,
+    justice_justice varchar,
     nyt_full_name varchar,
     nyt_last_name varchar,
     nyt_date_confirmed varchar,

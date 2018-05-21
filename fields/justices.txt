@@ -1,4 +1,4 @@
 DROP TABLE IF EXISTS justices CASCADE; CREATE TABLE justices(
-    justice int,
+    justice varchar,
     justicename varchar
 );

@@ -1,4 +1,4 @@
 DROP TABLE IF EXISTS naturalcourts CASCADE; CREATE TABLE naturalcourts(
-    naturalcourt numeric,
+    naturalcourt varchar,
     chief varchar
 );
